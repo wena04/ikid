@@ -3,14 +3,12 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 90;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		DBF5688F2BDDA75800FC9CB5 /* iKidApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBF5688E2BDDA75800FC9CB5 /* iKidApp.swift */; };
 		DBF568912BDDA75800FC9CB5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBF568902BDDA75800FC9CB5 /* ContentView.swift */; };
-		DBF568932BDDA75A00FC9CB5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DBF568922BDDA75A00FC9CB5 /* Assets.xcassets */; };
-		DBF568962BDDA75A00FC9CB5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DBF568952BDDA75A00FC9CB5 /* Preview Assets.xcassets */; };
 		DBF568A02BDDA75A00FC9CB5 /* iKidTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBF5689F2BDDA75A00FC9CB5 /* iKidTests.swift */; };
 		DBF568AA2BDDA75A00FC9CB5 /* iKidUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBF568A92BDDA75A00FC9CB5 /* iKidUITests.swift */; };
 		DBF568AC2BDDA75A00FC9CB5 /* iKidUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBF568AB2BDDA75A00FC9CB5 /* iKidUITestsLaunchTests.swift */; };
@@ -37,8 +35,6 @@
 		DBF5688B2BDDA75800FC9CB5 /* iKid.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iKid.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DBF5688E2BDDA75800FC9CB5 /* iKidApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iKidApp.swift; sourceTree = "<group>"; };
 		DBF568902BDDA75800FC9CB5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		DBF568922BDDA75A00FC9CB5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		DBF568952BDDA75A00FC9CB5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		DBF5689B2BDDA75A00FC9CB5 /* iKidTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iKidTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DBF5689F2BDDA75A00FC9CB5 /* iKidTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iKidTests.swift; sourceTree = "<group>"; };
 		DBF568A52BDDA75A00FC9CB5 /* iKidUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iKidUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -49,24 +45,18 @@
 /* Begin PBXFrameworksBuildPhase section */
 		DBF568882BDDA75800FC9CB5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
 			files = (
 			);
-			runOnlyForDeploymentPostprocessing = 0;
 		};
 		DBF568982BDDA75A00FC9CB5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
 			files = (
 			);
-			runOnlyForDeploymentPostprocessing = 0;
 		};
 		DBF568A22BDDA75A00FC9CB5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
 			files = (
 			);
-			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
@@ -96,18 +86,8 @@
 			children = (
 				DBF5688E2BDDA75800FC9CB5 /* iKidApp.swift */,
 				DBF568902BDDA75800FC9CB5 /* ContentView.swift */,
-				DBF568922BDDA75A00FC9CB5 /* Assets.xcassets */,
-				DBF568942BDDA75A00FC9CB5 /* Preview Content */,
 			);
 			path = iKid;
-			sourceTree = "<group>";
-		};
-		DBF568942BDDA75A00FC9CB5 /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-				DBF568952BDDA75A00FC9CB5 /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
 			sourceTree = "<group>";
 		};
 		DBF5689E2BDDA75A00FC9CB5 /* iKidTests */ = {
@@ -139,8 +119,6 @@
 				DBF568892BDDA75800FC9CB5 /* Resources */,
 			);
 			buildRules = (
-			);
-			dependencies = (
 			);
 			name = iKid;
 			productName = iKid;
@@ -207,7 +185,6 @@
 				};
 			};
 			buildConfigurationList = DBF568862BDDA75800FC9CB5 /* Build configuration list for PBXProject "iKid" */;
-			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -215,6 +192,7 @@
 				Base,
 			);
 			mainGroup = DBF568822BDDA75800FC9CB5;
+			preferredProjectObjectVersion = 90;
 			productRefGroup = DBF5688C2BDDA75800FC9CB5 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -229,55 +207,41 @@
 /* Begin PBXResourcesBuildPhase section */
 		DBF568892BDDA75800FC9CB5 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
 			files = (
-				DBF568962BDDA75A00FC9CB5 /* Preview Assets.xcassets in Resources */,
-				DBF568932BDDA75A00FC9CB5 /* Assets.xcassets in Resources */,
 			);
-			runOnlyForDeploymentPostprocessing = 0;
 		};
 		DBF568992BDDA75A00FC9CB5 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
 			files = (
 			);
-			runOnlyForDeploymentPostprocessing = 0;
 		};
 		DBF568A32BDDA75A00FC9CB5 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
 			files = (
 			);
-			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		DBF568872BDDA75800FC9CB5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
 			files = (
 				DBF568912BDDA75800FC9CB5 /* ContentView.swift in Sources */,
 				DBF5688F2BDDA75800FC9CB5 /* iKidApp.swift in Sources */,
 			);
-			runOnlyForDeploymentPostprocessing = 0;
 		};
 		DBF568972BDDA75A00FC9CB5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
 			files = (
 				DBF568A02BDDA75A00FC9CB5 /* iKidTests.swift in Sources */,
 			);
-			runOnlyForDeploymentPostprocessing = 0;
 		};
 		DBF568A12BDDA75A00FC9CB5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
 			files = (
 				DBF568AA2BDDA75A00FC9CB5 /* iKidUITests.swift in Sources */,
 				DBF568AC2BDDA75A00FC9CB5 /* iKidUITestsLaunchTests.swift in Sources */,
 			);
-			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
@@ -295,7 +259,7 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		DBF568AD2BDDA75A00FC9CB5 /* Debug */ = {
+		DBF568AD2BDDA75A00FC9CB5 /* Debug configuration for PBXProject "iKid" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -359,7 +323,7 @@
 			};
 			name = Debug;
 		};
-		DBF568AE2BDDA75A00FC9CB5 /* Release */ = {
+		DBF568AE2BDDA75A00FC9CB5 /* Release configuration for PBXProject "iKid" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -416,7 +380,7 @@
 			};
 			name = Release;
 		};
-		DBF568B02BDDA75A00FC9CB5 /* Debug */ = {
+		DBF568B02BDDA75A00FC9CB5 /* Debug configuration for PBXNativeTarget "iKid" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -445,7 +409,7 @@
 			};
 			name = Debug;
 		};
-		DBF568B12BDDA75A00FC9CB5 /* Release */ = {
+		DBF568B12BDDA75A00FC9CB5 /* Release configuration for PBXNativeTarget "iKid" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -474,7 +438,7 @@
 			};
 			name = Release;
 		};
-		DBF568B32BDDA75A00FC9CB5 /* Debug */ = {
+		DBF568B32BDDA75A00FC9CB5 /* Debug configuration for PBXNativeTarget "iKidTests" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -492,7 +456,7 @@
 			};
 			name = Debug;
 		};
-		DBF568B42BDDA75A00FC9CB5 /* Release */ = {
+		DBF568B42BDDA75A00FC9CB5 /* Release configuration for PBXNativeTarget "iKidTests" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -510,7 +474,7 @@
 			};
 			name = Release;
 		};
-		DBF568B62BDDA75A00FC9CB5 /* Debug */ = {
+		DBF568B62BDDA75A00FC9CB5 /* Debug configuration for PBXNativeTarget "iKidUITests" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -526,7 +490,7 @@
 			};
 			name = Debug;
 		};
-		DBF568B72BDDA75A00FC9CB5 /* Release */ = {
+		DBF568B72BDDA75A00FC9CB5 /* Release configuration for PBXNativeTarget "iKidUITests" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -548,37 +512,33 @@
 		DBF568862BDDA75800FC9CB5 /* Build configuration list for PBXProject "iKid" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DBF568AD2BDDA75A00FC9CB5 /* Debug */,
-				DBF568AE2BDDA75A00FC9CB5 /* Release */,
+				DBF568AD2BDDA75A00FC9CB5 /* Debug configuration for PBXProject "iKid" */,
+				DBF568AE2BDDA75A00FC9CB5 /* Release configuration for PBXProject "iKid" */,
 			);
-			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 		DBF568AF2BDDA75A00FC9CB5 /* Build configuration list for PBXNativeTarget "iKid" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DBF568B02BDDA75A00FC9CB5 /* Debug */,
-				DBF568B12BDDA75A00FC9CB5 /* Release */,
+				DBF568B02BDDA75A00FC9CB5 /* Debug configuration for PBXNativeTarget "iKid" */,
+				DBF568B12BDDA75A00FC9CB5 /* Release configuration for PBXNativeTarget "iKid" */,
 			);
-			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 		DBF568B22BDDA75A00FC9CB5 /* Build configuration list for PBXNativeTarget "iKidTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DBF568B32BDDA75A00FC9CB5 /* Debug */,
-				DBF568B42BDDA75A00FC9CB5 /* Release */,
+				DBF568B32BDDA75A00FC9CB5 /* Debug configuration for PBXNativeTarget "iKidTests" */,
+				DBF568B42BDDA75A00FC9CB5 /* Release configuration for PBXNativeTarget "iKidTests" */,
 			);
-			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 		DBF568B52BDDA75A00FC9CB5 /* Build configuration list for PBXNativeTarget "iKidUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DBF568B62BDDA75A00FC9CB5 /* Debug */,
-				DBF568B72BDDA75A00FC9CB5 /* Release */,
+				DBF568B62BDDA75A00FC9CB5 /* Debug configuration for PBXNativeTarget "iKidUITests" */,
+				DBF568B72BDDA75A00FC9CB5 /* Release configuration for PBXNativeTarget "iKidUITests" */,
 			);
-			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */

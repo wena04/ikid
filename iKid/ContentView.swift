@@ -125,8 +125,8 @@ struct ContentView: View {
         Joke(
             category: "Good",
             icon: "face.smiling.inverse",
-            question: "What did the janitor say when he jumped out of the closet?",
-            punchline: "Supplies!"
+            question: "Why was there a bug in the computer?",
+            punchline: "It was looking for a byte to eat!"
         ),
         Joke(
             category: "Pun",
@@ -137,8 +137,8 @@ struct ContentView: View {
         Joke(
             category: "Dad",
             icon: "figure.fall",
-            question: "Did you hear about the restaurant on the moon?",
-            punchline: "Great food, no atmosphere!"
+            question: "What’s Forrest Gump’s password?",
+            punchline: "1forest1"
         )
     ]
     
@@ -148,9 +148,9 @@ struct ContentView: View {
         lines: [
             "Knock knock.",
             "Who's there?",
-            "Lettuce",
-            "Lettuce who?",
-            "Lettuce in, it's freezing in here!"
+            "Honey bee.",
+            "Honey bee. who?",
+            "Honey bee a dear and get that for me, please!"
         ]
     )
     
