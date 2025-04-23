@@ -2,7 +2,7 @@
 //  iKidUITestsLaunchTests.swift
 //  iKidUITests
 //
-//  Created by stlp on 4/27/24.
+//  Created by Anthony  Wen on 4/22/25.
 //
 
 import XCTest
@@ -17,6 +17,7 @@ final class iKidUITestsLaunchTests: XCTestCase {
         continueAfterFailure = false
     }
 
+    @MainActor
     func testLaunch() throws {
         let app = XCUIApplication()
         app.launch()

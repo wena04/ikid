@@ -2,7 +2,7 @@
 //  ContentView.swift
 //  iKid
 //
-//  Created by Anthony Wen on 4/22/25.
+//  Created by Anthony  Wen on 4/22/25.
 //
 
 import SwiftUI
@@ -12,6 +12,7 @@ struct Joke {
     let icon: String
     let question: String
     let punchline: String
+    let imageName: String?
 }
 
 struct KnockKnockJoke {
@@ -37,6 +38,14 @@ struct JokeView: View {
                     .font(.headline)
                     .padding(.horizontal, 10.0)
                     .padding()
+                
+                if let imageName = joke.imageName {
+                    Image(imageName)
+                        .resizable()
+                        .scaledToFit()
+                        .frame(maxWidth: 300)
+                        .padding(.bottom)
+                }
             }
             
             Spacer()
@@ -126,19 +135,22 @@ struct ContentView: View {
             category: "Good",
             icon: "face.smiling.inverse",
             question: "Why was there a bug in the computer?",
-            punchline: "It was looking for a byte to eat!"
+            punchline: "It was looking for a byte to eat!",
+            imageName: "funny"
         ),
         Joke(
             category: "Pun",
             icon: "balloon.2.fill",
             question: "Why don't scientists trust atoms?",
-            punchline: "Because they make up everything!"
+            punchline: "Because they make up everything!",
+            imageName: nil
         ),
         Joke(
             category: "Dad",
             icon: "figure.fall",
             question: "What’s Forrest Gump’s password?",
-            punchline: "1forest1"
+            punchline: "1forest1",
+            imageName: nil
         )
     ]
     
@@ -178,7 +190,6 @@ struct ContentView: View {
         }
     }
 }
-
 
 
 #Preview {
